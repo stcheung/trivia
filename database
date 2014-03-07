@@ -1,2 +1,10 @@
-What does ACID compliant mean?
-	ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties that guarantee that database transactions are processed reliably.
+What are 3 advantages to using nontransaction-safe storage engines?
+	(1) Much faster
+	(2) Lower disk space requirements
+	(3) Less memory requirements to perform updates
+
+Why shouldn't you combine transaction-safe and nontransaction-safe storage engines in same transaction?
+	Because for nontransaction-safe engines, changes are committed automatically and you can't roll them back if there are failures.
+
+Can a MySQL database contain tables of different storage engines?
+	Yes
