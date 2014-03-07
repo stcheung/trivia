@@ -1,0 +1,2 @@
+What does ACID compliant mean?
+	ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties that guarantee that database transactions are processed reliably.
